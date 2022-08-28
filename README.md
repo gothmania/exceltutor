@@ -5,3 +5,4 @@ Cảm ơn bạn đã ghé thăm Github Repo này của mình, một repo dành c
 # Danh sách bài học
 
 1. [Table, `XLOOKUP`, Pivot Table](https://www.youtube.com/watch?v=9UITwcQzAIg)
+2. [Nối chuỗi kí tự bằng `&`, tiếp tục về `XLOOKUP`, `IF`](https://www.youtube.com/watch?v=DNLht0LqANA)
