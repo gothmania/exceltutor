@@ -13,3 +13,5 @@ Cảm ơn bạn đã ghé thăm Github Repo này của mình, một repo dành c
   - `XLOOKUP(giá_trị_cần_tìm, dữ_liệu_tham_chiếu, dữ_liệu_trả_về, kết_quả_trả_về_nếu_không_tìm_thấy, cách_khớp, cách_tìm_kiếm)` - khắc phục những nhược điểm của `VLOOKUP()`.
   - Nên thiết kế cơ sở dữ liệu theo normal forms.
 
+2. Phần 1 (1.4-1.5): TBA
+
