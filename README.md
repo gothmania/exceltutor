@@ -25,11 +25,11 @@ Playlist bài học: [YouTube KonTrymNon](https://www.youtube.com/playlist?list=
 3. Bài 1 (1.5): SUMIFS, Pivot Table
   - `SUMIFS(miền_tính_tổng, miền_kiểm_tra_điều_kiện1, điều_kiện_cần_kiểm_tra1, miền_kiểm_tra_điều_kiện2, điều_kiện_cần_kiểm_tra2, ...)`
     * Tính tổng nhưng giới hạn cho các dòng thỏa mãn một số điều kiện nhất định
-  - Pivot Table: công cụ tổng hợp tự động số liệu dựa trên số liệu thô, cho phép hiển thị số liệu tổng hợp được nhóm lại theo dòng, cột, và có thể dùng bộ lộc (filter).
+  - **Pivot Table** là công cụ tổng hợp tự động dựa trên số liệu thô, cho phép hiển thị số liệu tổng hợp được nhóm lại theo dòng, cột, và có thể dùng bộ lộc (filter).
 
 4. Bài 2 (2.1): MAXIFS, Conditional Formatting
   - `MAXIFS` tương tự `SUMIFS` nhưng dùng để tìm giá trị lớn nhất
-  - Conditional Formatting là công cụ giúp định dạng các ô tự động dựa trên điều kiện. Bạn không nên định dạng các ô trong Excel bằng tay, đặc biệt là các ô trong Table.
+  - **Conditional Formatting** là công cụ giúp định dạng các ô tự động dựa trên điều kiện. Bạn không nên định dạng các ô trong Excel bằng tay, đặc biệt là các ô trong Table.
     * Một trong các tính năng nâng cao của Conditional Formatting là sử dụng công thức (formula) để kiểm tra điều kiện.
 
 5. Bài 2 (2.2): Nối trường, TEXT, YEAR
@@ -44,12 +44,12 @@ Playlist bài học: [YouTube KonTrymNon](https://www.youtube.com/playlist?list=
   - Hàm `SORT` sắp xếp các hàng dữ liệu theo ABC hoặc theo điều kiện.
 
 7. Bài 3 (3.1): Name, Data Validation
-  - Để thuận tiện cho việc quản lí các miền dữ liệu, bạn nên đặt tên thay vì gọi thẳng địa chỉ của chúng ra. Khi nhìn công thức, người khác sẽ dễ dàng hiểu được mục đích của công thức này.
-  - Dữ liệu nhập bằng tay nên được kiểm tra về độ chính xác (gọi là validation hay phê chuẩn). Excel cho phép phê chuẩn bằng nhiều điều kiện khác nhau, đặc biệt có thể phê chuẩn từ một danh sách (sẽ hiện ra danh sách thả xuống ở các ô được kiểm tra).
+  - Để thuận tiện cho việc quản lí các miền dữ liệu, bạn nên đặt tên (**Name**) thay vì gọi thẳng địa chỉ của chúng ra. Khi nhìn công thức, người khác sẽ dễ dàng hiểu được mục đích của công thức này.
+  - Dữ liệu nhập bằng tay nên được kiểm tra về độ chính xác (gọi là **Data Validation** hay phê chuẩn dữ liệu). Excel cho phép phê chuẩn bằng nhiều điều kiện khác nhau, đặc biệt có thể phê chuẩn từ một danh sách (sẽ hiện ra danh sách thả xuống ở các ô được kiểm tra).
 
 8. Bài 3 (3.2): Power Query
-  - Power Query cho phép bạn thu thập số liệu từ nhiều nguồn, xử lí, điều chỉnh, kết hợp, và tổng hợp mà không phải lưu trữ tất cả các số liệu đó vào các sheet của Excel. Bạn chỉ cần lưu trữ nội dung cuối cùng mà bạn muốn hiển thị trong Excel (bảng, Pivot Table, Pivot Chart).
+  - **Power Query** cho phép bạn thu thập số liệu từ nhiều nguồn, xử lí, điều chỉnh, kết hợp, và tổng hợp mà không phải lưu trữ tất cả các số liệu đó vào các sheet của Excel. Bạn chỉ cần lưu trữ nội dung cuối cùng mà bạn muốn hiển thị trong Excel (bảng, Pivot Table, Pivot Chart).
 
 9. Bài 3 (3.3-3.4): Consolidate, Subtotal
-  - Consolidate cho phép "chồng" nhiều bảng có cùng cấu trúc lên nhau để tạo ra một bảng tổng hợp số liệu. Ví dụ, bạn có thể thu thập dữ liệu có cùng nội dung từ nhiều công ty, sau đó dùng Consolidate để tạo ra bảng tổng hợp cho tất cả các công ty này.
+  - **Consolidate** cho phép "chồng" nhiều bảng có cùng cấu trúc lên nhau để tạo ra một bảng tổng hợp số liệu. Ví dụ, bạn có thể thu thập dữ liệu có cùng nội dung từ nhiều công ty, sau đó dùng Consolidate để tạo ra bảng tổng hợp cho tất cả các công ty này.
   - Subtotal cho phép thực hiện các phép tính trên một miền mà bỏ qua các ô có hàm `SUBTOTAL` khác. Như vậy bạn có thể hiển thị cả các dữ liệu chi tiết và dữ liệu tổng hợp trên cùng một cột mà không sợ bị gộp vào khi tính toán.
