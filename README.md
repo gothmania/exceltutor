@@ -52,4 +52,4 @@ Playlist bài học: [YouTube KonTrymNon](https://www.youtube.com/playlist?list=
 
 **9. Bài 3 (3.3-3.4): Consolidate, Subtotal**
   - **Consolidate** cho phép "chồng" nhiều bảng có cùng cấu trúc lên nhau để tạo ra một bảng tổng hợp số liệu. Ví dụ, bạn có thể thu thập dữ liệu có cùng nội dung từ nhiều công ty, sau đó dùng Consolidate để tạo ra bảng tổng hợp cho tất cả các công ty này.
-  - Subtotal cho phép thực hiện các phép tính trên một miền mà bỏ qua các ô có hàm `SUBTOTAL` khác. Như vậy bạn có thể hiển thị cả các dữ liệu chi tiết và dữ liệu tổng hợp trên cùng một cột mà không sợ bị gộp vào khi tính toán.
+  - **Subtotal** cho phép thực hiện các phép tính trên một miền mà bỏ qua các ô có hàm `SUBTOTAL` khác. Như vậy bạn có thể hiển thị cả các dữ liệu chi tiết và dữ liệu tổng hợp trên cùng một cột mà không sợ bị gộp vào khi tính toán.
